@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Popins' , sans-serif;
+}
+/* card after carousel */
+.card-body{
+    background-color: #023246;
+    position: absolute;
+    height: 100px;
+    width: 1217px;
+    align-items: center;
+}
+/* .card{
+    background-color: #023246;
+    position: absolute;
+    width: 1217px;
+    height: 144px;
+    border: black;
+} */

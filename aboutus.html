@@ -13,82 +13,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <!-- start navbar -->
-  <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">LOGO</a>
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">OutSpace</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/aboutus">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contactus">CONTAC US</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                STORE
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/all">ALL</a></li>
-                <li><a class="dropdown-item" href="/male">MALE</a></li>
-                <li><a class="dropdown-item" href="/female">FEMALE</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="wrapper-icon">
-        <div class="box ">
-          <input type="text" placeholder="Search...">
-          <a href="#">
-            <i class="bi bi-search"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <!-- end navbar-->
-
   <!-- container setelah navbar -->
-  <div class="container-fluid wrap-1">
-    <div class="container" style="width: 40%; height: 50px; margin-top: 150px;">
-      <h1 class="text-sm-center">ABOUT US</h1>
+  <style>
+    body {
+      font-family: "Popins", sans-serif;
+      background-color: #fff;
+      padding: 0;
+      margin: 0;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-top: 20px;
+      color: black;
+    }
+    
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    p{
+      color: #287094;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: center;
+    }
+  </style>
+  
+    <div class="container">
+      <h1>ABOUT US</h1>
+      <p style="text-align: center; margin-top: 20px;">
+        <a href="/index.html">Home ></a>About Us
+      </p>
     </div>
-    <div class="container mt-3">
-      <div class="container d-flex text-sm-center" style="width: 20%; text-decoration-line: underline;">
-        <a class="text-black-50" href="/index.html">
-          <h6>HOME<i class="bi bi-chevron-right"></i></h6>
-        </a>
-        <h6 class="text-primary">ABOUT US</h6>
-      </div>
-    </div>
-  </div>
   <!-- END CONTAINER AFTER NAVBAR -->
 
   <!-- card 1 -->
   <div class="card-body mt-5" style="background-color: #023246;">
     <div class="row align-items-sm-start text-sm-center">
       <p class="text-light col-3 text-sm-center mt-3"><b>OUR VISION</b></p> 
-      <p class="text-light col-8 text-sm-center mt-3"><b>Visi</b> Outspace adalah untuk menjadi pemimpin global dalam industri fashion yang tidak hanya mengedepankan inovasi dan desain yang futuristik, tetapi juga menempatkan keberlanjutan dan tanggung jawab sosial sebagai inti dari setiap keputusan bisnisnya. Outspace bertujuan untuk mendefinisikan ulang konsep fashion modern yang mencakup semua aspek produksi, dari pendetailan design hingga proses yang nantinya bakal di distribusi, dengan tujuan akhir menciptakan dampak positif bagi Outspace dan komunitas.</p> 
+      <p class="text-light col-8 text-sm-start mt-3"><b>Visi</b> Outspace adalah untuk menjadi pemimpin global dalam industri fashion yang tidak hanya mengedepankan inovasi dan desain yang futuristik, tetapi juga menempatkan keberlanjutan dan tanggung jawab sosial sebagai inti dari setiap keputusan bisnisnya. Outspace bertujuan untuk mendefinisikan ulang konsep fashion modern yang mencakup semua aspek produksi, dari pendetailan design hingga proses yang nantinya bakal di distribusi, dengan tujuan akhir menciptakan dampak positif bagi Outspace dan komunitas.</p> 
     </div>
   </div>
   <!-- end card 1 -->
 
   <!-- cart 2 -->
   <div class="card">
-    <img src="/crousel/natalie-pedigo-wJK9eTiEZHY-unsplash.jpg" class="card-img" alt="perjuangan" style="height: 170px; object-fit: fill;">
+    <img src="/natalie-pedigo-wJK9eTiEZHY-unsplash.jpg" class="card-img" alt="perjuangan" style="height: 170px; object-fit: fill;">
     <div class="card-img-overlay row align-items-sm-start text-sm-center">
       <p class="text-light col-3 text-sm-center mt-3"><b>OUR MISSION</b></p> 
-      <p class="text-light col-8 text-sm-center mt-3"><b>MISI</b> Outspace adalah untuk mendefinisikan ulang industri fashion melalui inovasi berkelanjutan, desain futuristik, dan tanggung jawab sosial yang mendalam. Outspace berkomitmen untuk menciptakan produk yang tidak hanya estetis dan streetwear saja. Dengan misi ini, Outspace berusaha untuk menjadi bukan hanya sebuah brand fashion, tetapi juga agen perubahan yang mendukung gen z dalam pemilihan selera design mereka</p> 
+      <p class="text-light col-8 text-sm-start mt-3"><b>MISI</b> Outspace adalah untuk mendefinisikan ulang industri fashion melalui inovasi berkelanjutan, desain futuristik, dan tanggung jawab sosial yang mendalam. Outspace berkomitmen untuk menciptakan produk yang tidak hanya estetis dan streetwear saja. Dengan misi ini, Outspace berusaha untuk menjadi bukan hanya sebuah brand fashion, tetapi juga agen perubahan yang mendukung gen z dalam pemilihan selera design mereka</p> 
     </div>
   </div>
   <!-- end cart 2 -->
@@ -97,7 +79,7 @@
   <div class="card-body bg-light" style="height: 400px;">
     <div class="row align-items-sm-start text-sm-center">
       <p class="text-primary col-3 text-sm-center mt-3"><b>DESIGN AND VALUES</b></p> 
-      <p class="text-primary col-8 text-sm-center mt-3"><b>Design </b> Outspace adalah  perwujudan dari estetika futuristik yang berpadu dengan model design Y2K, Bootleg, Streetwear, Idol. Mencerminkan visi brand untuk mendefinisikan ulang fashion modern gen z. Setiap produk dirancang dengan cermat untuk tidak hanya terlihat menarik tetapi juga nyaman di mata dan useful bagi pemakainya.
+      <p class="text-primary col-8 text-sm-start mt-3"><b>Design </b> Outspace adalah  perwujudan dari estetika futuristik yang berpadu dengan model design Y2K, Bootleg, Streetwear, Idol. Mencerminkan visi brand untuk mendefinisikan ulang fashion modern gen z. Setiap produk dirancang dengan cermat untuk tidak hanya terlihat menarik tetapi juga nyaman di mata dan useful bagi pemakainya.
       <b>Values </b>yang dianut oleh Outspace adalah fondasi dari setiap keputusan dan tindakan mereka dari segi Inovasi, Keberlanjutan, komunitas, dan Ekspresi diri.</p> 
     </div>
     <div class="row align-items-sm-start text-sm-center" style="margin: 7rem 0px;">
@@ -108,27 +90,27 @@
 
   <!-- introducing  -->
   <div class="card text-bg-light position-relative d-flex" style="height: 232px;">
-    <img src="zahwa.jpeg" class="card-img position-absolute" alt="zawa" style="bottom: -1px; height: 232px; width: 273px; object-fit: contain; filter: grayscale(); border-radius: 0%;">
+    <img src="zahwa.jpeg" class="card-img position-absolute" alt="zawa" style="bottom: -1px; height: 232px; width: 273px; object-fit: contain; filter: grayscale(100%); border-radius: 0%;">
     <div class="card-img-overlay" style="position: relative; left: 10px;";>
       <h5 class="card-title text-light" style="position: relative; bottom: -160px; left: 10px;";>Zahwa Aulia Fadilla</h5>
       <p class="card-text text-light" style="position: relative; bottom: -150px; left: 50px;";>Web Ideas</p>
     </div>
-    <img src="Fauzy.jpg" class="card-img position-absolute" alt="Fauzy" style="bottom: -1px; left: 260px; height: 232px; width: 273px; object-fit: contain; filter: grayscale(); border-radius: 0%;">
+    <img src="Fauzy.jpg" class="card-img position-absolute" alt="Fauzy" style="bottom: -1px; left: 260px; height: 232px; width: 273px; object-fit: contain; filter: grayscale(100%); border-radius: 0%;">
     <div class="card-img-overlay" style="position: relative; left: 240px;";>
       <h5 class="card-title text-light" style="position: relative; bottom: -70px; left: 80px;";>Fauzy Damyl P</h5>
       <p class="card-text text-light" style="position: relative; bottom: -60px; left: 90px;";>UI/UX Designer</p>
     </div>
-    <img src="Nadia.jpg" class="card-img position-absolute" alt="nadia" style="bottom: -1px; left: 500px; height: 232px; width: 273px; object-fit: contain; filter: grayscale(); border-radius: 0%;">
+    <img src="Nadia.jpg" class="card-img position-absolute" alt="nadia" style="bottom: -1px; left: 500px; height: 232px; width: 273px; object-fit: contain; filter: grayscale(100%); border-radius: 0%;">
     <div class="card-img-overlay" style="position: relative; left: 400px;";>
       <h5 class="card-title text-light" style="position: relative; bottom: 20px; left: 200px;";>Nadia</h5>
       <p class="card-text text-light" style="position: relative; bottom: 30px; left: 200px;";>Frontend</p>
     </div>
-    <img src="dea.jpeg" class="card-img position-absolute" alt="dea" style="bottom: -1px; left: 740px; height: 232px; width: 278px; object-fit: contain; filter: grayscale(); border-radius: 0%;">
+    <img src="dea.jpeg" class="card-img position-absolute" alt="dea" style="bottom: -1px; left: 740px; height: 232px; width: 278px; object-fit: contain; filter: grayscale(100%); border-radius: 0%;">
     <div class="card-img-overlay" style="position: relative; left: 500px;";>
       <h5 class="card-title text-light" style="position: relative; bottom: 110px; left: 300px;";>Dea Arianti</h5>
       <p class="card-text text-light" style="position: relative; bottom: 120px; left: 320px;";>Frontend</p>
     </div>
-    <img src="ugo.jpeg" class="card-img position-absolute" alt="hugo" style="bottom: -1px; left: 970px; height: 232px; width: 270px; object-fit: contain; filter: grayscale(); border-radius: 0%;">
+    <img src="ugo.jpeg" class="card-img position-absolute" alt="hugo" style="bottom: -1px; left: 970px; height: 232px; width: 270px; object-fit: contain; filter: grayscale(100%); border-radius: 0%;">
     <div class="card-img-overlay" style="position: relative; left: 600px;";>
       <h5 class="card-title text-light" style="position: relative; bottom: 200px; left: 420px;";>Hugo Gabriel S</h5>
       <p class="card-text text-light" style="position: relative; bottom: 210px; left: 460px;";>Backend</p>

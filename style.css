@@ -1,23 +1,182 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg---color: #ffffff;
+    --text-color: #000;
+    --big-font: 4.5rem;
+    --h2-font: 3rem;
+    --h1-font: 2rem;
+    --h3-font: 1.5rem;
+    --normal-font: 1rem;
 }
 body{
-    font-family: 'Popins' , sans-serif;
-}
-/* card after carousel */
-.card-body{
-    background-color: #023246;
-    position: absolute;
-    height: 100px;
-    width: 1217px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
     align-items: center;
+    justify-content: space-between;
+    transition: all .6s;
+    font-size: var(--normal-font);
 }
-/* .card{
+.center-text span:hover{
+    color: #287194;
+}
+.center-text{
+    text-align:center;
+}
+.center-text h2{
+    font-size: var(--h1-font);
+    padding: 1%;
+
+}
+.center-text h4{
+    font-size: 0.8rem;
+}
+.col-text h5{
+    font-size: 1rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 1.5 rem;
+    padding: 25px 14%;
+    margin-top: 1rem;
+    background-color: #ffffff;
+}
+/* All Collection */
+.grid-item{
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.grid-item img{
+    display: block;
+    width: 70%;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.grid-item:hover img{
+    transform: scale(1.1);
+}
+.discount{
     background-color: #023246;
+    color:#ffffff;
+    font-size: var(--h3-font);
+    padding: 1%;
+    margin-top: 25px;
+}
+/* .main-btn{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    transition: all, 42s ease;
+}
+.main-btn:hover{
+    background-color: #000;
+    color: #ffffff;
+    vertical-align: middle;
+    transform: scale(1.1);
     position: absolute;
-    width: 1217px;
-    height: 144px;
-    border: black;
+}   */
+
+/* .main-btn{
+    text-align: rigt;
+    margin-right: 10% 10px;
+    margin-bottom: 5px;
+    padding: 10px 25px;
+    padding: 5px;
+
+}
+.main-btn h1{
+    text-align: left;
+}
+.n-btn{
+    display: flex;
+    top: 20px;
+    bottom: 20px;
+    padding: 10px 32px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #ffffff;
+    text-align: right;
+    transition: all, 1s ease;
+}
+.n-btn:hover{
+    background: #000;
+    color: #ffffff;
+    transform: scale(0.9) translate(-6px);
 } */
+.signup-offer {
+    display: flex;
+    color: #fff;
+    background-color: #023246; /* light gray background */
+    padding: 20px;
+    border: 1px solid #ddd; /* light gray border */
+    width: 100%; /* adjust width as needed */
+    margin: 0% auto; /* center the div */
+    text-align: left; /* center the text */
+  }
+  
+  .signup-btn {
+    background-color: #ffffff; /* green background */
+    color: #000; /* white text */
+    width: 191px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 600px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* change cursor to hand pointer */
+  }
+  
+  .signup-btn:hover {
+    background-color: grey; /* darker green on hover */
+  }
+/* Men Collection */
+.men-grid-item{
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.men-grid-item img{
+    display: block;
+    width: 70%;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.men-grid-item:hover img{
+    transform: scale(1.1);
+}
+
+/* Women Collection */
+.wmn-grid-item{
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.wmn-grid-item img{
+    display: block;
+    width: 70%;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.wmn-grid-item:hover img{
+    transform: scale(1.1);
+}

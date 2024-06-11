@@ -13,9 +13,19 @@ body{
 }
 
 .image-container img {
-    width: 100%;
+    width: 1366px;
     height: auto;
     display: block;
+}
+
+.logo {
+    width: 68px;
+    height: 68px;
+    top: 10px;
+    left: 29px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
 
 .overlay-text {
@@ -28,7 +38,7 @@ body{
     font-weight: 800;
     font-size: 64px;
 }
-.btn {
+.image-container button{
     position: absolute;
     width: 141px;
     height: 46px;
@@ -37,6 +47,13 @@ body{
     padding: 15px 30px 15px 30px;
     background-color: #287194;
     color: #fff;
+}
+.image-container button:hover{
+    background-color: #023246;
+}
+.image-container a{
+    color: #fff;
+    text-decoration: none;
 }
 /* end image header */
 /* card after carousel */
@@ -55,7 +72,18 @@ body{
     position: relative;
     top: 2px;
 }
-
+.wrapper-icon button{
+    border: none;
+    background-color: #fff;
+}
+.wrapper-icon button a {
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+}
+.wrapper-icon button a:hover{
+    color: black;
+    text-decoration: underline;
+}
 /* start icon search */
 .box{
     height: 10px;
@@ -97,32 +125,14 @@ body{
     height: 100%;
     margin: 5px;
 }
+/* end navbar */
+/* footer */
+.bd-footer{
+    width: 1366px;
+}
+.bd-footer b {
+    font-weight: 700;
+    font-size: 32px;
+}
 
-/* diskon */
-.signup-offer {
-    display: flex;
-    color: #fff;
-    background-color: #023246; /* light gray background */
-    padding: 20px;
-    border: 1px solid #ddd; /* light gray border */
-    width: 100%; /* adjust width as needed */
-    margin: 100px auto; /* center the div */
-    text-align: left; /* center the text */
-  }
-  
-  .signup-btn {
-    background-color: #4CAF50; /* green background */
-    color: #fff; /* white text */
-    width: 191px;
-    height: 50px;
-    margin-top: 25px;
-    margin-left: 600px;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer; /* change cursor to hand pointer */
-  }
-  
-  .signup-btn:hover {
-    background-color: #3e8e41; /* darker green on hover */
-  }
+/* end footer */

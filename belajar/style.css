@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Popins' , sans-serif;
+}
+/* start image header */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 1366px;
+    height: auto;
+    display: block;
+}
+
+.logo {
+    width: 68px;
+    height: 68px;
+    top: 10px;
+    left: 29px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.overlay-text {
+    position: absolute;
+    width: 400px;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 800;
+    font-size: 64px;
+}
+.image-container button{
+    position: absolute;
+    width: 141px;
+    height: 46px;
+    top: 85%;
+    left: 5%;
+    padding: 15px 30px 15px 30px;
+    background-color: #287194;
+    color: #fff;
+}
+.image-container button:hover{
+    background-color: #023246;
+}
+.image-container a{
+    color: #fff;
+    text-decoration: none;
+}
+/* end image header */
+/* card after carousel */
+.card-body{
+    background-color: #023246;
+    position: absolute;
+    height: 100px;
+    width: 1217px;
+    align-items: center;
+}
+/* navbar icon */
+.wrapper-icon,.cart,.person{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+.wrapper-icon button{
+    border: none;
+    background-color: #fff;
+}
+.wrapper-icon button a {
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+}
+.wrapper-icon button a:hover{
+    color: black;
+    text-decoration: underline;
+}
+/* start icon search */
+.box{
+    height: 10px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 20px #313131;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.box:hover input{
+    width: 100px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.box a .bi{
+    color :#313131;
+    font-size: 15px;
+}
+.bi{
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+/* end navbar */
+/* footer */
+.bd-footer{
+    width: 1366px;
+}
+.bd-footer b {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* end footer */

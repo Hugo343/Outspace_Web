@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-image {
+    background-image: url('img/bg-nasa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.payment-details {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-details h3 {
+    margin-bottom: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-primary, .btn-success {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #023246;
+    color: #fff;
+}
+
+.summary p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.summary p span {
+    font-weight: bold;
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        display: none;
+    }
+
+    .payment-details {
+        margin-top: 20px;
+    }
+}
